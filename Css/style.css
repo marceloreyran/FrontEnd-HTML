@@ -1,0 +1,218 @@
+    :root{
+        --blanco: #ffffff;
+        --oscuro: #212121;
+        --primario:#ade2d7;
+        --secundario:#485268;
+        --gris: #e5e5e5;
+        --grisclaro:#dfe9f3;
+        --otro:#7e59a9;
+        --gris3:#e7e7e7;
+        --gris4:#76777c;
+        --morado:#483b73;
+        
+        
+    }
+    /*Globales*/
+
+    html{
+        font-size: 60%;
+        box-sizing: border-box; 
+        scroll-snap-type: y mandatory;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }  
+    body{
+    font-size: 16px; /*1 rem= 10px*/
+    font-family: 'krub', sans-serif;  
+    background-image: linear-gradient(to top, var(--gris4), var(--blanco) 35%);
+    }
+
+    h1{
+    font-size: 5.5rem;
+    color: var(--otro);
+    font-weight: 300rem;
+    font-display:initial;
+    font-stretch: expanded;
+
+    }
+
+
+    h2{
+    font-size: 3rem;
+    color: var(--otro);
+    font-weight: 300rem;
+    font-display:initial;
+    font-stretch: expanded;
+    }
+
+
+    h3{    
+    font-size: 2rem;
+    color: var(--otro);
+    font-weight: 300rem;
+    font-display:initial;
+    font-stretch: expanded;
+    }
+
+    .h4{
+    font-size:  2rem;
+    text-align: center;
+    }
+
+    h1,h2,h3,h4,p
+    {
+        text-align: center;
+    }
+
+
+    .inicio {
+    font-size: 3.5rem;
+    }
+
+
+    .navegacion{
+        justify-content: center;
+        text-align:center;
+        padding: 1px;   
+        font-size: 3rem;
+        color:var(--secundario);
+        border: 2px --oscuro;
+
+        }
+        
+        
+    .navegacion :hover
+        {
+            background-color: var(--otro);
+            color: var(--gris);
+            border: 1px --grisclaro; 
+        }
+
+    @media (min-width : 768px ) 
+    {
+        .navegacion
+        {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction:row;
+        justify-content:space-around;
+        border: 1px #212121;
+        }
+        
+    .logo
+    {
+        background-image: url(..//img/Foto.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 300px;
+        position:initial;
+        text-align: center;;
+        
+    }
+
+    .logo_cake{
+
+        position: absolute;
+        background-color: rgb(0 0 0 /50%);
+        width: 20%;
+        height: 20%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+        
+    .contenedor-tarjetas{
+        align-items: center;
+        text-align: center;
+
+    }
+    .contenedor{
+    color: var(--gris);
+    }
+
+    .todos{
+        color: var(--gris);
+
+    }
+    .tarjeta-menu{
+        
+        color: #483b73;
+        font-size: 2rem;
+    }
+
+    .inventario{
+    align-items: center;
+    text-align: center;
+    }
+
+    .inve{
+        text-align: center;
+    }
+
+    .label-input{
+        text-align: center;
+        align-items:center;
+        font-size:larger;
+        color: #7e59a9;
+        
+    }
+
+    .check{
+
+        font-size: medium;
+        color: #7e59a9;
+    }
+
+
+    .check {
+    
+        justify-content:center;
+        align-items: center;
+        
+    }
+    
+    .check input {
+        width: 30%;
+        height: 30%;
+    
+    }
+    
+    .check button {
+        padding: 0.5em 1em;
+        border: none;
+        background: rgb(100, 200, 255);
+        cursor: pointer;
+    }
+
+    .pastel{
+
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        color: var(--otro);
+        display: center;
+        font-size:medium;
+    }
+
+    .tipos{
+
+        text-align: center;
+        align-items: center;
+        color: var(--otro);
+    }
+    .pasteles{
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            color: var(--otro);
+            display: center;
+            font-size:medium;
+        }
+    }
+
+
+    
